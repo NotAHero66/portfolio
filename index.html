@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <header>
+        <meta charset="utf-8">
+        <meta name="author" content="David ponciano">
+        <meta name="description" content="Site para fazer varios nadas">
+        <link rel="stylesheet" src="css/bootstrap.css">
+        <link rel="stylesheet" src="css/stylo.css">
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Shadows+Into+Light" rel="stylesheet">
+        <style>
+            
+            @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+            @import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+            
+            html, body {
+                margin: 0; padding: 0;
+            }
+            
+            .container {
+                padding: 0; margin: 0;
+            }
+            
+            #header {
+                height: 100vh;
+                background-color: aqua;
+            }
+            
+            #navbar {
+                display:fixed; top:0;
+                height: 70px;
+                padding: 0 0 20px 0; margin:0;
+                background-image: url(https://ryuxchunliproject.files.wordpress.com/2014/10/ryu-bigsuper.gif);
+                background-repeat: no-repeat;
+                background-size: 10%;
+                background-position: center;
+                background-color: black;
+
+            }
+            
+            #navbar #menu {
+                float: right;
+                padding: 16px;
+            }
+            
+            #navbar #menu li {
+                display: inline-block;
+            }
+            
+            #navbar #menu li a {
+                text-decoration: none;
+                font-size: 20px;
+                padding: 20px;
+                color: white;
+            }
+            #navbar #menu li a:hover {
+                background-color:white;
+                border-radius: 20px;
+                color: black;
+            }
+            
+            @media (max-width:580px){
+                #social {
+                    display: none;
+                }
+                #navbar {
+                    background-size: 30%;
+                    background-position: left;
+                }
+            }
+             /* Fim do primeiro menu */ 
+            
+            #navbar #social {
+            padding: 10px 0 0 0;
+            float: left;
+}
+            #navbar #social .social {
+            display: inline-block;
+            list-style: none;
+}
+            #navbar #social .social a {
+            padding: 10px;
+}
+            #navbar #social .social a:hover {
+                opacity: 0.6;
+            }
+            #title h1 {
+                text-align: center;
+                font-family: 'EB Garamond', serif;
+                padding: 15% 0 0 0;
+            }
+            .span {
+                font-size: 0.6em;
+                color: darkgreen;
+                margin-left: 10px;
+                font-family: 'Mountains of Christmas', cursive;
+            }
+            
+        
+        </style>
+    </header>
+    <body>
+        <div id="header">
+            <div class="row">
+            <nav id="navbar" clas="container col-sm-12 col-md-12 col-lg-12">
+                <ul id="menu" clas="col-sm-5 col-md-5 col-lg-5">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul id="social">
+                    <li class="social"><a href="https://codepen.io/david-wright-the-flexboxer/" target="_blank"><img src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png" width="40px"></a></li>
+                        <li class="social"><a href="https://github.com/NotAHero66" target="_blank"><img src="https://image.iccpic.com/previews/19/f4/da/f97e2f5490f5e199.svg" width="40px"></a></li>
+                        <li class="social"><a href="#" target="_blank"><img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png" width="40px"></a></li>
+                        <li class="social"><a href="https://www.facebook.com/profile.php?id=100027423990900" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Facebook_circle_pictogram.svg/2000px-Facebook_circle_pictogram.svg.png" width="40px"></a></li>
+                </ul>
+                </nav>
+                </div>
+            <div id="title" class="container col-sm-6 col-md-6 col-lg-6">
+                  <h1>Hi, I'm David <br> <section class="span">a web develover</section></h1>
+            </div>
+         </div>
+    </body>
+</html>
